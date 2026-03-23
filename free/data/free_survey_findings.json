@@ -1,0 +1,272 @@
+[
+  {
+    "category": "metadata",
+    "finding": "Total respondents (Phase 1)",
+    "value": "3256",
+    "unit": "people"
+  },
+  {
+    "category": "metadata",
+    "finding": "Total respondents (Phase 2)",
+    "value": "1919",
+    "unit": "people"
+  },
+  {
+    "category": "metadata",
+    "finding": "Total respondents (all phases)",
+    "value": "4350",
+    "unit": "people"
+  },
+  {
+    "category": "metadata",
+    "finding": "Countries represented",
+    "value": "100+",
+    "unit": "countries"
+  },
+  {
+    "category": "metadata",
+    "finding": "Total survey questions (Phase 1+2)",
+    "value": "551",
+    "unit": "questions"
+  },
+  {
+    "category": "metadata",
+    "finding": "Phase 3 open-ended questions",
+    "value": "70+",
+    "unit": "questions"
+  },
+  {
+    "category": "metadata",
+    "finding": "Study duration",
+    "value": "5",
+    "unit": "years"
+  },
+  {
+    "category": "demographics",
+    "finding": "Female respondents",
+    "value": "57%",
+    "unit": "percent"
+  },
+  {
+    "category": "demographics",
+    "finding": "Male respondents",
+    "value": "43%",
+    "unit": "percent"
+  },
+  {
+    "category": "demographics",
+    "finding": "Age 45-64",
+    "value": "56%",
+    "unit": "percent"
+  },
+  {
+    "category": "demographics",
+    "finding": "White/Caucasian",
+    "value": "71%",
+    "unit": "percent"
+  },
+  {
+    "category": "demographics",
+    "finding": "From United States",
+    "value": "64.1%",
+    "unit": "percent"
+  },
+  {
+    "category": "demographics",
+    "finding": "From Canada",
+    "value": "8.4%",
+    "unit": "percent"
+  },
+  {
+    "category": "demographics",
+    "finding": "From Australia",
+    "value": "8.3%",
+    "unit": "percent"
+  },
+  {
+    "category": "demographics",
+    "finding": "From United Kingdom",
+    "value": "7.2%",
+    "unit": "percent"
+  },
+  {
+    "category": "experience_character",
+    "finding": "Reported positive behavioral transformation",
+    "value": "71-85%",
+    "unit": "percent range"
+  },
+  {
+    "category": "experience_character",
+    "finding": "Interaction changed life positively",
+    "value": "85%",
+    "unit": "percent"
+  },
+  {
+    "category": "experience_character",
+    "finding": "Do NOT want contact to stop",
+    "value": "84%",
+    "unit": "percent"
+  },
+  {
+    "category": "consciousness_psi",
+    "finding": "Received telepathic/thought transference from NHI",
+    "value": "78%",
+    "unit": "percent"
+  },
+  {
+    "category": "consciousness_psi",
+    "finding": "Communication with NHI not physically present",
+    "value": "70.4%",
+    "unit": "percent"
+  },
+  {
+    "category": "consciousness_psi",
+    "finding": "Had 3+ telepathic contact experiences",
+    "value": "68%",
+    "unit": "percent"
+  },
+  {
+    "category": "consciousness_psi",
+    "finding": "Had 10+ telepathic contact experiences",
+    "value": "46%",
+    "unit": "percent"
+  },
+  {
+    "category": "communication_content",
+    "finding": "Personally relevant information",
+    "value": "66%",
+    "unit": "percent"
+  },
+  {
+    "category": "communication_content",
+    "finding": "Spiritual or religious messages",
+    "value": "52%",
+    "unit": "percent"
+  },
+  {
+    "category": "communication_content",
+    "finding": "Philosophical or metaphysical",
+    "value": "51%",
+    "unit": "percent"
+  },
+  {
+    "category": "communication_content",
+    "finding": "Scientific or technological content",
+    "value": "34%",
+    "unit": "percent"
+  },
+  {
+    "category": "communication_content",
+    "finding": "Global or socio-political issues",
+    "value": "34%",
+    "unit": "percent"
+  },
+  {
+    "category": "communication_content",
+    "finding": "Visions/videos/pictures with telepathic messages",
+    "value": "53.4%",
+    "unit": "percent"
+  },
+  {
+    "category": "consciousness_psi",
+    "finding": "Had Out of Body Experiences (OBE)",
+    "value": "80%",
+    "unit": "percent"
+  },
+  {
+    "category": "consciousness_psi",
+    "finding": "Had Near Death Experience (NDE)",
+    "value": "36%",
+    "unit": "percent"
+  },
+  {
+    "category": "consciousness_psi",
+    "finding": "Family members also had paranormal experiences",
+    "value": "75.7%",
+    "unit": "percent"
+  },
+  {
+    "category": "consciousness_psi",
+    "finding": "Believed family experiences were related",
+    "value": "57.8%",
+    "unit": "percent"
+  },
+  {
+    "category": "physical_effects",
+    "finding": "Reported medical healing by NHI",
+    "value": "50%",
+    "unit": "percent"
+  },
+  {
+    "category": "abduction",
+    "finding": "Of those reporting abduction",
+    "value": "32%",
+    "unit": "percent of total"
+  },
+  {
+    "category": "abduction",
+    "finding": "Conscious memory recall (not hypnotic)",
+    "value": "70%+",
+    "unit": "percent"
+  },
+  {
+    "category": "craft",
+    "finding": "Saw intelligently controlled craft",
+    "value": "62-73%",
+    "unit": "percent range by country"
+  },
+  {
+    "category": "craft",
+    "finding": "Craft hovered",
+    "value": "44-52%",
+    "unit": "percent range"
+  },
+  {
+    "category": "craft",
+    "finding": "Craft made impossible maneuvers",
+    "value": "30-39%",
+    "unit": "percent range"
+  },
+  {
+    "category": "craft",
+    "finding": "Craft disappeared quickly",
+    "value": "33-42%",
+    "unit": "percent range"
+  },
+  {
+    "category": "craft",
+    "finding": "Seen by multiple witnesses",
+    "value": "36-47%",
+    "unit": "percent range"
+  },
+  {
+    "category": "craft_shape",
+    "finding": "Sphere shape",
+    "value": "70%",
+    "unit": "percent"
+  },
+  {
+    "category": "craft_shape",
+    "finding": "Triangle shape",
+    "value": "36%",
+    "unit": "percent"
+  },
+  {
+    "category": "craft_shape",
+    "finding": "Oval shape",
+    "value": "34%",
+    "unit": "percent"
+  },
+  {
+    "category": "craft_shape",
+    "finding": "Cylindrical/cigar shape",
+    "value": "28%",
+    "unit": "percent"
+  },
+  {
+    "category": "craft_shape",
+    "finding": "Cloud-like shape",
+    "value": "22%",
+    "unit": "percent"
+  }
+]

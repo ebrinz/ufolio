@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380">
+  <defs>
+    <!-- Deep space gradient -->
+    <radialGradient id="space" cx="50%" cy="60%" r="70%">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="40%" stop-color="#060a14"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </radialGradient>
+
+    <!-- Subtle green glow from below (abduction beam ambient) -->
+    <radialGradient id="groundGlow" cx="50%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#1a3a2a" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#0a1a12" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Alien skin gradient -->
+    <linearGradient id="skinL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a9a8e"/>
+      <stop offset="50%" stop-color="#6b7d72"/>
+      <stop offset="100%" stop-color="#586b5e"/>
+    </linearGradient>
+    <linearGradient id="skinC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#92a296"/>
+      <stop offset="50%" stop-color="#748678"/>
+      <stop offset="100%" stop-color="#5e7062"/>
+    </linearGradient>
+    <linearGradient id="skinR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#869888"/>
+      <stop offset="50%" stop-color="#687a6e"/>
+      <stop offset="100%" stop-color="#56685a"/>
+    </linearGradient>
+
+    <!-- Eye sheen -->
+    <radialGradient id="eyeSheen" cx="35%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#1a1a2e" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#0a0a14" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="eyeHighlight" cx="30%" cy="25%" r="30%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Title glow -->
+    <filter id="titleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Soft alien ambient glow -->
+    <filter id="alienGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#4a7a5a" flood-opacity="0.12" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Star twinkle -->
+    <filter id="starSoft">
+      <feGaussianBlur stdDeviation="0.8"/>
+    </filter>
+
+    <!-- Subtle noise texture -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.03"/>
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="overlay"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="380" fill="url(#space)"/>
+  <rect width="900" height="380" fill="url(#groundGlow)"/>
+
+  <!-- Stars - varied sizes and opacities for depth -->
+  <!-- Distant tiny stars -->
+  <g fill="#ffffff" opacity="0.3">
+    <circle cx="45" cy="28" r="0.5"/><circle cx="123" cy="67" r="0.4"/>
+    <circle cx="198" cy="15" r="0.6"/><circle cx="267" cy="89" r="0.3"/>
+    <circle cx="312" cy="32" r="0.5"/><circle cx="389" cy="71" r="0.4"/>
+    <circle cx="456" cy="18" r="0.5"/><circle cx="534" cy="95" r="0.3"/>
+    <circle cx="601" cy="43" r="0.6"/><circle cx="678" cy="12" r="0.4"/>
+    <circle cx="745" cy="78" r="0.5"/><circle cx="823" cy="55" r="0.3"/>
+    <circle cx="867" cy="22" r="0.5"/><circle cx="78" cy="105" r="0.4"/>
+    <circle cx="156" cy="142" r="0.3"/><circle cx="412" cy="125" r="0.5"/>
+    <circle cx="634" cy="118" r="0.4"/><circle cx="789" cy="135" r="0.3"/>
+    <circle cx="34" cy="178" r="0.4"/><circle cx="178" cy="198" r="0.3"/>
+    <circle cx="845" cy="172" r="0.5"/><circle cx="723" cy="205" r="0.3"/>
+  </g>
+
+  <!-- Mid-range stars -->
+  <g fill="#c8d0e8" opacity="0.5">
+    <circle cx="89" cy="45" r="0.8"/><circle cx="234" cy="52" r="0.7"/>
+    <circle cx="378" cy="38" r="0.9"/><circle cx="512" cy="62" r="0.7"/>
+    <circle cx="656" cy="35" r="0.8"/><circle cx="801" cy="48" r="0.7"/>
+    <circle cx="145" cy="112" r="0.7"/><circle cx="489" cy="98" r="0.8"/>
+    <circle cx="756" cy="108" r="0.7"/><circle cx="56" cy="155" r="0.8"/>
+    <circle cx="867" cy="145" r="0.7"/>
+  </g>
+
+  <!-- Bright stars with glow -->
+  <g filter="url(#starSoft)">
+    <circle cx="167" cy="34" r="1.2" fill="#e0e8ff" opacity="0.7"/>
+    <circle cx="445" cy="48" r="1.4" fill="#ffffff" opacity="0.8"/>
+    <circle cx="712" cy="28" r="1.1" fill="#d8e4ff" opacity="0.6"/>
+    <circle cx="334" cy="85" r="1.0" fill="#e8ecff" opacity="0.5"/>
+    <circle cx="578" cy="72" r="1.3" fill="#ffffff" opacity="0.7"/>
+    <circle cx="823" cy="92" r="1.0" fill="#dce4f8" opacity="0.5"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- ALIEN LEFT — slightly turned inward, shorter -->
+  <!-- ═══════════════════════════════════════════ -->
+  <g transform="translate(245, 148)" filter="url(#alienGlow)">
+    <!-- Body -->
+    <path d="M-2,95 C-2,82 -10,72 -12,60 C-13,52 -8,46 0,44 C8,46 13,52 12,60 C10,72 2,82 2,95 Z"
+          fill="url(#skinL)" opacity="0.9"/>
+    <!-- Neck -->
+    <ellipse cx="0" cy="46" rx="6" ry="4" fill="#586b5e"/>
+    <!-- Head -->
+    <path d="M0,-42 C22,-42 38,-28 40,-6 C41,8 36,22 28,32 C20,40 10,44 0,45 C-10,44 -20,40 -28,32 C-36,22 -41,8 -40,-6 C-38,-28 -22,-42 0,-42 Z"
+          fill="url(#skinL)"/>
+    <!-- Head highlight -->
+    <ellipse cx="-4" cy="-22" rx="18" ry="10" fill="#ffffff" opacity="0.04"/>
+
+    <!-- Left eye -->
+    <ellipse cx="-14" cy="6" rx="11" ry="14" transform="rotate(12, -14, 6)"
+             fill="url(#eyeSheen)"/>
+    <ellipse cx="-14" cy="6" rx="11" ry="14" transform="rotate(12, -14, 6)"
+             fill="url(#eyeHighlight)"/>
+    <!-- Right eye -->
+    <ellipse cx="12" cy="5" rx="10" ry="13.5" transform="rotate(-8, 12, 5)"
+             fill="url(#eyeSheen)"/>
+    <ellipse cx="12" cy="5" rx="10" ry="13.5" transform="rotate(-8, 12, 5)"
+             fill="url(#eyeHighlight)"/>
+
+    <!-- Subtle mouth line -->
+    <path d="M-4,28 Q0,30 4,28" stroke="#4a5c4e" stroke-width="0.8" fill="none" opacity="0.5"/>
+
+    <!-- Nostrils (two tiny dots) -->
+    <circle cx="-2" cy="22" r="0.8" fill="#4a5c4e" opacity="0.4"/>
+    <circle cx="3" cy="22" r="0.8" fill="#4a5c4e" opacity="0.4"/>
+
+    <!-- Left arm — relaxed at side, slight outward curve -->
+    <path d="M-11,56 C-18,64 -24,76 -22,88 C-21,92 -18,94 -16,92"
+          stroke="url(#skinL)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Left hand — 3 long fingers -->
+    <path d="M-16,92 C-18,96 -20,100 -19,103" stroke="#586b5e" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M-16,92 C-15,97 -14,101 -14,104" stroke="#586b5e" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M-16,92 C-12,96 -10,100 -10,102" stroke="#586b5e" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Right arm — slightly raised, gesturing toward center alien -->
+    <path d="M11,56 C17,62 22,70 26,80 C28,85 27,88 24,88"
+          stroke="url(#skinL)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M24,88 C26,91 28,94 27,97" stroke="#586b5e" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M24,88 C25,92 25,96 24,98" stroke="#586b5e" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M24,88 C23,92 22,96 22,98" stroke="#586b5e" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Legs -->
+    <path d="M-4,94 C-6,108 -8,122 -8,132" stroke="#586b5e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M3,94 C4,108 5,122 6,132" stroke="#586b5e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- ALIEN CENTER — tallest, facing forward -->
+  <!-- ═══════════════════════════════════════════ -->
+  <g transform="translate(450, 132)" filter="url(#alienGlow)">
+    <!-- Body -->
+    <path d="M-2,102 C-2,86 -12,74 -14,60 C-15,50 -9,44 0,42 C9,44 15,50 14,60 C12,74 2,86 2,102 Z"
+          fill="url(#skinC)" opacity="0.9"/>
+    <!-- Neck -->
+    <ellipse cx="0" cy="44" rx="7" ry="4.5" fill="#5e7062"/>
+    <!-- Head — slightly larger -->
+    <path d="M0,-48 C25,-48 42,-32 44,-6 C45,10 40,26 30,36 C22,44 11,48 0,49 C-11,48 -22,44 -30,36 C-40,26 -45,10 -44,-6 C-42,-32 -25,-48 0,-48 Z"
+          fill="url(#skinC)"/>
+    <!-- Head highlight -->
+    <ellipse cx="-2" cy="-26" rx="20" ry="11" fill="#ffffff" opacity="0.04"/>
+
+    <!-- Left eye -->
+    <ellipse cx="-15" cy="6" rx="12.5" ry="16" transform="rotate(10, -15, 6)"
+             fill="url(#eyeSheen)"/>
+    <ellipse cx="-15" cy="6" rx="12.5" ry="16" transform="rotate(10, -15, 6)"
+             fill="url(#eyeHighlight)"/>
+    <!-- Right eye -->
+    <ellipse cx="15" cy="6" rx="12.5" ry="16" transform="rotate(-10, 15, 6)"
+             fill="url(#eyeSheen)"/>
+    <ellipse cx="15" cy="6" rx="12.5" ry="16" transform="rotate(-10, 15, 6)"
+             fill="url(#eyeHighlight)"/>
+
+    <!-- Nostrils -->
+    <circle cx="-2.5" cy="25" r="0.9" fill="#4c5e50" opacity="0.4"/>
+    <circle cx="2.5" cy="25" r="0.9" fill="#4c5e50" opacity="0.4"/>
+
+    <!-- Mouth — very subtle, slightly upturned (the "leader" has a knowing expression) -->
+    <path d="M-5,32 Q0,34.5 5,32" stroke="#4c5e50" stroke-width="0.8" fill="none" opacity="0.5"/>
+
+    <!-- Left arm — resting, slightly out -->
+    <path d="M-13,58 C-20,68 -28,82 -26,96 C-25,100 -22,102 -20,100"
+          stroke="url(#skinC)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M-20,100 C-22,104 -24,108 -23,111" stroke="#5e7062" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M-20,100 C-19,105 -18,109 -18,112" stroke="#5e7062" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M-20,100 C-17,104 -15,108 -15,110" stroke="#5e7062" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+    <!-- Right arm — resting, slightly out -->
+    <path d="M13,58 C20,68 28,82 26,96 C25,100 22,102 20,100"
+          stroke="url(#skinC)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M20,100 C22,104 24,108 23,111" stroke="#5e7062" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M20,100 C19,105 18,109 18,112" stroke="#5e7062" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M20,100 C17,104 15,108 15,110" stroke="#5e7062" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+    <!-- Legs -->
+    <path d="M-5,101 C-7,116 -9,132 -9,146" stroke="#5e7062" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M5,101 C6,116 8,132 8,146" stroke="#5e7062" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- ALIEN RIGHT — shortest, slightly tilted head -->
+  <!-- ═══════════════════════════════════════════ -->
+  <g transform="translate(655, 155)" filter="url(#alienGlow)">
+    <!-- Body -->
+    <path d="M-2,88 C-2,76 -9,66 -11,55 C-12,48 -7,42 0,40 C7,42 12,48 11,55 C9,66 2,76 2,88 Z"
+          fill="url(#skinR)" opacity="0.9"/>
+    <!-- Neck -->
+    <ellipse cx="0" cy="42" rx="5.5" ry="3.5" fill="#56685a"/>
+    <!-- Head — tilted slightly -->
+    <g transform="rotate(-4, 0, 0)">
+      <path d="M0,-38 C20,-38 35,-25 37,-5 C38,7 34,20 26,29 C18,37 9,40 0,41 C-9,40 -18,37 -26,29 C-34,20 -38,7 -37,-5 C-35,-25 -20,-38 0,-38 Z"
+            fill="url(#skinR)"/>
+      <!-- Head highlight -->
+      <ellipse cx="-3" cy="-20" rx="16" ry="9" fill="#ffffff" opacity="0.04"/>
+
+      <!-- Left eye -->
+      <ellipse cx="-13" cy="5" rx="10" ry="13" transform="rotate(10, -13, 5)"
+               fill="url(#eyeSheen)"/>
+      <ellipse cx="-13" cy="5" rx="10" ry="13" transform="rotate(10, -13, 5)"
+               fill="url(#eyeHighlight)"/>
+      <!-- Right eye -->
+      <ellipse cx="11" cy="4.5" rx="9.5" ry="12.5" transform="rotate(-12, 11, 4.5)"
+               fill="url(#eyeSheen)"/>
+      <ellipse cx="11" cy="4.5" rx="9.5" ry="12.5" transform="rotate(-12, 11, 4.5)"
+               fill="url(#eyeHighlight)"/>
+
+      <!-- Nostrils -->
+      <circle cx="-2" cy="20" r="0.7" fill="#485a4c" opacity="0.4"/>
+      <circle cx="2.5" cy="20" r="0.7" fill="#485a4c" opacity="0.4"/>
+
+      <!-- Mouth -->
+      <path d="M-3.5,26 Q0,27.5 3.5,25.5" stroke="#485a4c" stroke-width="0.7" fill="none" opacity="0.5"/>
+    </g>
+
+    <!-- Left arm — reaching slightly toward center -->
+    <path d="M-10,52 C-16,60 -22,72 -24,82 C-25,86 -22,88 -20,86"
+          stroke="url(#skinR)" stroke-width="3.8" fill="none" stroke-linecap="round"/>
+    <path d="M-20,86 C-22,89 -24,93 -23,95" stroke="#56685a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M-20,86 C-19,90 -18,94 -18,96" stroke="#56685a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M-20,86 C-17,90 -15,93 -14,95" stroke="#56685a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+    <!-- Right arm — relaxed -->
+    <path d="M10,52 C16,60 20,72 18,84 C17,88 14,89 12,87"
+          stroke="url(#skinR)" stroke-width="3.8" fill="none" stroke-linecap="round"/>
+    <path d="M12,87 C14,90 15,94 14,96" stroke="#56685a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M12,87 C12,91 12,95 11,97" stroke="#56685a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M12,87 C10,91 9,94 9,96" stroke="#56685a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+    <!-- Legs -->
+    <path d="M-4,87 C-5,100 -7,114 -7,124" stroke="#56685a" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+    <path d="M3,87 C4,100 5,114 5,124" stroke="#56685a" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- Ground plane — subtle horizon line -->
+  <!-- ═══════════════════════════════════════════ -->
+  <line x1="120" y1="298" x2="780" y2="298" stroke="#1a2a1e" stroke-width="0.5" opacity="0.3"/>
+  <ellipse cx="450" cy="298" rx="280" ry="3" fill="#0a1a10" opacity="0.15"/>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- TITLE: UFOlio -->
+  <!-- ═══════════════════════════════════════════ -->
+
+  <!-- Main title -->
+  <g filter="url(#titleGlow)">
+    <text x="450" y="355" text-anchor="middle"
+          font-family="'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', 'Consolas', monospace"
+          font-size="42" font-weight="300" letter-spacing="14" fill="#c8d8cc">
+      UFO<tspan fill="#7aaa88" font-weight="500">lio</tspan>
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="450" y="374" text-anchor="middle"
+        font-family="'SF Mono', 'Fira Code', 'JetBrains Mono', monospace"
+        font-size="9" letter-spacing="6" fill="#4a6a52" opacity="0.6">
+    UAP ENCOUNTER DATA COLLECTION
+  </text>
+
+  <!-- Film grain overlay -->
+  <rect width="900" height="380" filter="url(#noise)" opacity="0.4"/>
+</svg>

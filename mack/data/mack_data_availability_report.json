@@ -1,0 +1,118 @@
+{
+  "report_date": "2026-03-23T10:28:53.359048",
+  "summary": "John E. Mack's abduction research data is extremely limited in digital availability. The bulk of his raw research (150 boxes covering ~200 experiencers) is archived at Rice University and is NOT publicly accessible or digitized. The only published structured data comes from his 1994 book 'Abduction' which presents 13 detailed case studies. No digitized databases, spreadsheets, or structured datasets of his research have been found online.",
+  "data_sources_searched": [
+    {
+      "source": "johnemackinstitute.org (JEMI)",
+      "status": "TLS certificate error - site appears to have infrastructure issues",
+      "data_found": false,
+      "notes": "JEMI website has SSL/TLS certificate problems; HTTP version references exist but redirect fails"
+    },
+    {
+      "source": "Archive.org",
+      "status": "Book exists but in Print Disabled / Access Restricted collection",
+      "data_found": true,
+      "notes": "Abduction (1994) available as restricted item; Passport to the Cosmos (1999) also listed",
+      "urls": [
+        "https://archive.org/details/abductionhumanen0000mack_s4j4",
+        "https://archive.org/details/passporttocosmos0000mack"
+      ]
+    },
+    {
+      "source": "Avalon Library",
+      "status": "Full PDF of Abduction book available and downloaded",
+      "data_found": true,
+      "notes": "14.3MB PDF downloaded to data/Mack_Abduction_Human_Encounters_with_Aliens.pdf",
+      "url": "https://avalonlibrary.net/ebooks/John%20E.%20Mack,%20MD%20-%20Abduction%20-%20Human%20Encounters%20with%20Aliens.pdf"
+    },
+    {
+      "source": "GitHub",
+      "status": "No repositories found",
+      "data_found": false,
+      "notes": "Searched GitHub API for 'john mack abduction' and related terms - no results"
+    },
+    {
+      "source": "Academic journals",
+      "status": "No journal papers with structured case data found",
+      "data_found": false,
+      "notes": "Mack published books rather than journal papers; his work faced academic scrutiny and was not published in peer-reviewed journals as structured case series"
+    },
+    {
+      "source": "Harvard Countway Library",
+      "status": "No digital collections found for Mack's abduction research",
+      "data_found": false,
+      "notes": "Mack's research materials were donated to Rice University, not retained at Harvard"
+    },
+    {
+      "source": "Rice University Archives of the Impossible",
+      "status": "150 boxes archived but NOT digitized or publicly accessible",
+      "data_found": false,
+      "notes": "MS 1066; unprocessed; restricted until anonymization or 2074; Karin Austin leading digitization effort",
+      "url": "https://archives.library.rice.edu/repositories/2/resources/1595"
+    },
+    {
+      "source": "MedDocs Online - Academic paper",
+      "status": "Downloaded paper about Mack's work",
+      "data_found": true,
+      "notes": "Paper: 'The Psychiatrist Who Flew Into Space and Never Came Back' - overview of Mack's career and research",
+      "file": "psychiatrist_who_flew_into_space.pdf"
+    },
+    {
+      "source": "UFO Insight",
+      "status": "Case summaries extracted",
+      "data_found": true,
+      "notes": "Detailed summaries of 6 cases (Ed, Scott, Lee, Catherine, Sara, Paul)",
+      "url": "https://www.ufoinsight.com/aliens/abductions/john-mack-alien-abduction-files"
+    },
+    {
+      "source": "PBS NOVA",
+      "status": "Interview transcript with case details",
+      "data_found": true,
+      "notes": "Mack interview from 'Kidnapped by UFOs' program",
+      "url": "https://www.pbs.org/wgbh/nova/aliens/johnmack.html"
+    }
+  ],
+  "files_saved": [
+    {
+      "file": "Mack_Abduction_Human_Encounters_with_Aliens.pdf",
+      "description": "Full text of 1994 book (PDF, 14.3MB)",
+      "source": "Avalon Library"
+    },
+    {
+      "file": "Mack_Abduction_text.txt",
+      "description": "Extracted text from book PDF (23,268 lines)",
+      "source": "pdftotext extraction"
+    },
+    {
+      "file": "psychiatrist_who_flew_into_space.pdf",
+      "description": "Academic paper on Mack's career and research",
+      "source": "MedDocs Online"
+    },
+    {
+      "file": "mack_case_studies.json",
+      "description": "Structured data for all 13+1 published case studies",
+      "source": "Compiled from book text"
+    },
+    {
+      "file": "mack_case_studies.csv",
+      "description": "CSV export of case studies",
+      "source": "Compiled from book text"
+    },
+    {
+      "file": "mack_research_metadata.json",
+      "description": "Metadata about Mack's research program, methods, and archive",
+      "source": "Compiled from multiple sources"
+    },
+    {
+      "file": "mack_demographics_summary.json",
+      "description": "Statistical summary of the 13 published cases",
+      "source": "Computed from case data"
+    },
+    {
+      "file": "mack_data_availability_report.json",
+      "description": "This report documenting data sources and availability",
+      "source": "Search results compilation"
+    }
+  ],
+  "conclusion": "Mack's published data is qualitative and narrative-based, not quantitative. The 13 case studies from his 1994 book represent the entirety of his publicly available structured case data. His broader research on ~200 experiencers remains locked in the Rice University archives, where it is being slowly digitized with a target de-identification process. The full archive will likely not be publicly available for many years, and some materials are restricted until 2074."
+}

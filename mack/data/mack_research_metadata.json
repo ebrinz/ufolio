@@ -1,0 +1,114 @@
+{
+  "researcher": {
+    "name": "John Edward Mack, M.D.",
+    "born": "1929-10-04",
+    "died": "2004-09-27",
+    "institution": "Harvard Medical School",
+    "department": "Psychiatry (Head of Department 1977-2004)",
+    "other_notable_work": "Pulitzer Prize 1977 for 'A Prince of Our Disorder' (T.E. Lawrence biography)",
+    "research_program": "Program for Extraordinary Experience Research (PEER)",
+    "peer_founded": 1993,
+    "peer_funding": "Laurance Rockefeller grant",
+    "years_active_ufo_research": "1990-2004"
+  },
+  "research_scope": {
+    "total_experiencers_studied": "~200",
+    "total_cases_investigated": "~100 (intensive)",
+    "total_hypnosis_sessions": "325+",
+    "years_of_clinical_investigation": 12,
+    "published_case_studies": 13,
+    "book_abduction_cases": 13,
+    "selection_criteria": [
+      "Illustrates one or more central aspects of the phenomenon",
+      "Person willing to have story told (with or without pseudonym)",
+      "Mack knew individual quite well"
+    ],
+    "methodology": [
+      "Initial 2-hour screening interview",
+      "Hypnotic regression sessions",
+      "Support group participation",
+      "Qualitative clinical analysis",
+      "Matrix categorizing experiences (primary, secondary, ancillary)"
+    ],
+    "inclusion_criterion": "Whether experience was felt to be real by experiencer and communicated sincerely and authentically"
+  },
+  "publications": {
+    "primary_book": {
+      "title": "Abduction: Human Encounters with Aliens",
+      "year": 1994,
+      "publisher": "Scribner's (New York)",
+      "isbn": "0684195399",
+      "pages": 432,
+      "case_studies": 13,
+      "archive_org_url": "https://archive.org/details/abductionhumanen0000mack_s4j4"
+    },
+    "second_book": {
+      "title": "Passport to the Cosmos: Human Transformation and Alien Encounters",
+      "year": 1999,
+      "publisher": "Crown Publishers / Kunati",
+      "isbn": "0517705680",
+      "pages": 333,
+      "structure": "Thematic chapters rather than individual case studies",
+      "focus": "Cross-cultural perspectives, indigenous experiences, consciousness",
+      "archive_org_url": "https://archive.org/details/passporttocosmos0000mack"
+    }
+  },
+  "harvard_investigation": {
+    "year": 1994,
+    "initiated_by": "Dean of Harvard Medical School",
+    "nature": "Committee to review Mack's clinical care",
+    "significance": "First time in Harvard history a tenured professor subjected to such investigation",
+    "outcome": "August 1995: Committee reaffirmed Dr. Mack's academic freedom",
+    "outcome_detail": "Freedom to study what he wishes and state opinions without impediment"
+  },
+  "archive_location": {
+    "institution": "Rice University, Woodson Research Center, Fondren Library",
+    "collection_name": "John E. Mack Archives",
+    "collection_id": "MS 1066",
+    "location": "Houston, Texas",
+    "size": "150 linear feet (150 boxes)",
+    "dates": "1970-2010",
+    "status": "Unprocessed",
+    "materials": "Reports, correspondence, email, interview recordings, photographs, videorecordings",
+    "access": "Stored offsite at Library Service Center; 24-hour notice required",
+    "digital_status": "Digitization in progress led by Karin Austin (JEMI director)",
+    "restrictions": "Private data restricted until anonymization or 2074",
+    "parent_collection": "Archives of the Impossible (AOTI)",
+    "aoti_founded": 2014,
+    "aoti_founder": "Jeffrey J. Kripal (Professor of Religion, Rice University)",
+    "contact_email": "woodson@rice.edu",
+    "contact_phone": "713-348-2586",
+    "finding_aid_url": "https://archives.library.rice.edu/repositories/2/resources/1595"
+  },
+  "notable_other_cases": {
+    "ariel_school": {
+      "year": 1994,
+      "location": "Ruwa, Zimbabwe",
+      "witnesses": "62 schoolchildren",
+      "description": "Children observed craft and beings communicating telepathically about environmental stewardship",
+      "significance": "Cross-cultural validation; consistent with North American reports"
+    },
+    "mit_conference": {
+      "year": 1992,
+      "event": "MIT Abduction Study Conference",
+      "proceedings": "600+ page proceedings",
+      "significance": "Major academic conference on abduction phenomena"
+    }
+  },
+  "common_patterns_identified": [
+    "Luminous or energetic beings",
+    "Intense visionary states",
+    "Episodes of paralysis followed by perceived transport",
+    "Transformative aftermaths emphasizing planetary concern",
+    "Missing time",
+    "Reproductive/sexual procedures",
+    "Environmental/ecological messages",
+    "Dual human/alien identity",
+    "Cross-generational family patterns",
+    "Childhood onset (often age 2-3)",
+    "Past life experiences during sessions",
+    "Physical marks (cuts, ulcers, triangular lesions)",
+    "Telepathic communication",
+    "Hybrid offspring reports"
+  ]
+}

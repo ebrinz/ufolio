@@ -1,0 +1,475 @@
+2026-03-23 10:07:39,507 [INFO] Fetching 1954 from https://web.archive.org/web/20220529025112id_/http://www.ufoinfo.com/humanoid/humanoid1954.shtml
+2026-03-23 10:07:39,905 [INFO] Saved raw HTML for 1954 (1298 bytes)
+2026-03-23 10:07:39,906 [WARNING] No entry boundaries found in page 1954
+2026-03-23 10:07:39,906 [INFO] Found 0 entry boundaries in page 1954
+2026-03-23 10:07:47,520 [INFO] Fetching 1973 from https://web.archive.org/web/20221203131039id_/http://www.ufoinfo.com/humanoid/humanoid1973.shtml
+2026-03-23 10:07:47,893 [INFO] Saved raw HTML for 1973 (1452 bytes)
+2026-03-23 10:07:47,893 [WARNING] No entry boundaries found in page 1973
+2026-03-23 10:07:47,893 [INFO] Found 0 entry boundaries in page 1973
+2026-03-23 10:08:53,538 [INFO] Fetching 1954 from https://web.archive.org/web/20220529025112/http://www.ufoinfo.com/humanoid/humanoid1954.shtml
+2026-03-23 10:08:54,084 [INFO] Saved raw HTML for 1954 (2986 bytes)
+2026-03-23 10:08:54,086 [WARNING] No entry boundaries found in page 1954
+2026-03-23 10:08:54,086 [INFO] Found 0 entry boundaries in page 1954
+2026-03-23 10:08:59,298 [INFO] Fetching 1973 from https://web.archive.org/web/20221203131039/http://www.ufoinfo.com/humanoid/humanoid1973.shtml
+2026-03-23 10:08:59,682 [INFO] Saved raw HTML for 1973 (3139 bytes)
+2026-03-23 10:08:59,683 [WARNING] No entry boundaries found in page 1973
+2026-03-23 10:08:59,684 [INFO] Found 0 entry boundaries in page 1973
+2026-03-23 10:14:51,124 [INFO] CDX found timestamp 20080217002358 for 1954
+2026-03-23 10:14:51,124 [INFO] Fetching 1954 from https://web.archive.org/web/20080217002358/http://www.ufoinfo.com/humanoid/humanoid1954.shtml
+2026-03-23 10:14:52,542 [INFO] Saved raw HTML for 1954 (182565 bytes)
+2026-03-23 10:14:52,591 [INFO] Found 235 entry boundaries in page 1954
+2026-03-23 10:15:05,582 [INFO] CDX found timestamp 20080101172443 for 1973
+2026-03-23 10:15:05,583 [INFO] Fetching 1973 from https://web.archive.org/web/20080101172443/http://www.ufoinfo.com/humanoid/humanoid1973.shtml
+2026-03-23 10:15:07,398 [INFO] Saved raw HTML for 1973 (261146 bytes)
+2026-03-23 10:15:07,460 [INFO] Found 247 entry boundaries in page 1973
+2026-03-23 10:18:43,672 [INFO] Found 247 entry boundaries in page 1973
+2026-03-23 10:18:51,129 [INFO] ============================================================
+2026-03-23 10:18:51,130 [INFO] Starting Rosales Humanoid Encounters scraper
+2026-03-23 10:18:51,130 [INFO] ============================================================
+2026-03-23 10:18:51,130 [INFO] 
+--- Processing page 1/73: humanoidancient ---
+2026-03-23 10:19:21,221 [WARNING] CDX lookup failed for ancient (20080101-20130101): HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=30)
+2026-03-23 10:19:23,124 [INFO] CDX found timestamp 20060118095505 for ancient
+2026-03-23 10:19:23,124 [INFO] Fetching ancient from https://web.archive.org/web/20060118095505/http://www.ufoinfo.com/humanoid/humanoidancient.shtml
+2026-03-23 10:19:24,223 [INFO] Saved raw HTML for ancient (166406 bytes)
+2026-03-23 10:19:24,267 [INFO] Found 148 entry boundaries in page ancient
+2026-03-23 10:19:24,282 [INFO] Parsed 148 entries from page ancient
+2026-03-23 10:19:26,289 [INFO] 
+--- Processing page 2/73: humanoid1900 ---
+2026-03-23 10:20:04,280 [WARNING] No Wayback snapshot found for page: 1900
+2026-03-23 10:20:04,280 [INFO] 
+--- Processing page 3/73: humanoid1910 ---
+2026-03-23 10:20:32,952 [INFO] CDX found timestamp 20080101172337 for 1910
+2026-03-23 10:20:32,952 [INFO] Fetching 1910 from https://web.archive.org/web/20080101172337/http://www.ufoinfo.com/humanoid/humanoid1910.shtml
+2026-03-23 10:20:34,094 [INFO] Saved raw HTML for 1910 (64273 bytes)
+2026-03-23 10:20:34,109 [INFO] Found 68 entry boundaries in page 1910
+2026-03-23 10:20:34,115 [INFO] Parsed 68 entries from page 1910
+2026-03-23 10:20:36,120 [INFO] 
+--- Processing page 4/73: humanoid1930 ---
+2026-03-23 10:20:47,396 [INFO] CDX found timestamp 20080101172342 for 1930
+2026-03-23 10:20:47,397 [INFO] Fetching 1930 from https://web.archive.org/web/20080101172342/http://www.ufoinfo.com/humanoid/humanoid1930.shtml
+2026-03-23 10:20:48,497 [INFO] Saved raw HTML for 1930 (53336 bytes)
+2026-03-23 10:20:48,511 [INFO] Found 55 entry boundaries in page 1930
+2026-03-23 10:20:48,516 [INFO] Parsed 55 entries from page 1930
+2026-03-23 10:20:50,523 [INFO] 
+--- Processing page 5/73: humanoid1940 ---
+2026-03-23 10:27:17,146 [WARNING] CDX fallback lookup failed for 1940: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 10:27:17,146 [WARNING] No Wayback snapshot found for page: 1940
+2026-03-23 10:27:17,146 [INFO] 
+--- Processing page 6/73: humanoid1942 ---
+2026-03-23 10:27:22,360 [WARNING] No Wayback snapshot found for page: 1942
+2026-03-23 10:27:22,361 [INFO] 
+--- Processing page 7/73: humanoid1943 ---
+2026-03-23 10:27:23,693 [WARNING] No Wayback snapshot found for page: 1943
+2026-03-23 10:27:23,694 [INFO] 
+--- Processing page 8/73: humanoid1944 ---
+2026-03-23 10:27:30,655 [WARNING] No Wayback snapshot found for page: 1944
+2026-03-23 10:27:30,656 [INFO] 
+--- Processing page 9/73: humanoid1945 ---
+2026-03-23 10:27:40,691 [WARNING] No Wayback snapshot found for page: 1945
+2026-03-23 10:27:40,691 [INFO] 
+--- Processing page 10/73: humanoid1946 ---
+2026-03-23 10:27:57,588 [WARNING] No Wayback snapshot found for page: 1946
+2026-03-23 10:27:57,588 [INFO] 
+--- Processing page 11/73: humanoid1947 ---
+2026-03-23 10:28:02,504 [INFO] CDX found timestamp 20080217013009 for 1947
+2026-03-23 10:28:02,505 [INFO] Fetching 1947 from https://web.archive.org/web/20080217013009/http://www.ufoinfo.com/humanoid/humanoid1947.shtml
+2026-03-23 10:28:03,131 [INFO] Saved raw HTML for 1947 (55328 bytes)
+2026-03-23 10:28:03,154 [INFO] Found 43 entry boundaries in page 1947
+2026-03-23 10:28:03,160 [INFO] Parsed 43 entries from page 1947
+2026-03-23 10:28:05,165 [INFO] 
+--- Processing page 12/73: humanoid1948 ---
+2026-03-23 10:28:05,576 [INFO] CDX found timestamp 20080101172353 for 1948
+2026-03-23 10:28:05,577 [INFO] Fetching 1948 from https://web.archive.org/web/20080101172353/http://www.ufoinfo.com/humanoid/humanoid1948.shtml
+2026-03-23 10:28:06,510 [INFO] Saved raw HTML for 1948 (74708 bytes)
+2026-03-23 10:28:06,532 [INFO] Found 49 entry boundaries in page 1948
+2026-03-23 10:28:06,540 [INFO] Parsed 49 entries from page 1948
+2026-03-23 10:28:08,545 [INFO] 
+--- Processing page 13/73: humanoid1949 ---
+2026-03-23 10:28:32,403 [WARNING] No Wayback snapshot found for page: 1949
+2026-03-23 10:28:32,404 [INFO] 
+--- Processing page 14/73: humanoid1950 ---
+2026-03-23 10:29:02,406 [WARNING] CDX lookup failed for 1950 (20080101-20130101): HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=30)
+2026-03-23 10:29:32,453 [WARNING] CDX lookup failed for 1950 (20060101-20080101): HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=30)
+2026-03-23 10:29:53,196 [INFO] CDX found fallback timestamp 20051210113302 for 1950
+2026-03-23 10:29:53,196 [INFO] Fetching 1950 from https://web.archive.org/web/20051210113302/http://www.ufoinfo.com/humanoid/humanoid1950.shtml
+2026-03-23 10:29:55,380 [INFO] Saved raw HTML for 1950 (81699 bytes)
+2026-03-23 10:29:55,408 [INFO] Found 60 entry boundaries in page 1950
+2026-03-23 10:29:55,416 [INFO] Parsed 60 entries from page 1950
+2026-03-23 10:29:57,422 [INFO] 
+--- Processing page 15/73: humanoid1951 ---
+2026-03-23 10:30:27,430 [WARNING] CDX lookup failed for 1951 (20080101-20130101): HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=30)
+2026-03-23 10:30:34,054 [INFO] CDX found timestamp 20060522102647 for 1951
+2026-03-23 10:30:34,055 [INFO] Fetching 1951 from https://web.archive.org/web/20060522102647/http://www.ufoinfo.com/humanoid/humanoid1951.shtml
+2026-03-23 10:30:36,838 [INFO] Saved raw HTML for 1951 (59013 bytes)
+2026-03-23 10:30:36,851 [INFO] Found 47 entry boundaries in page 1951
+2026-03-23 10:30:36,856 [INFO] Parsed 47 entries from page 1951
+2026-03-23 10:30:38,860 [INFO] 
+--- Processing page 16/73: humanoid1952 ---
+2026-03-23 10:30:40,709 [INFO] CDX found timestamp 20080217002806 for 1952
+2026-03-23 10:30:40,710 [INFO] Fetching 1952 from https://web.archive.org/web/20080217002806/http://www.ufoinfo.com/humanoid/humanoid1952.shtml
+2026-03-23 10:30:42,965 [INFO] Saved raw HTML for 1952 (81731 bytes)
+2026-03-23 10:30:42,996 [INFO] Found 68 entry boundaries in page 1952
+2026-03-23 10:30:43,003 [INFO] Parsed 68 entries from page 1952
+2026-03-23 10:30:45,008 [INFO] 
+--- Processing page 17/73: humanoid1953 ---
+2026-03-23 10:30:50,134 [INFO] CDX found timestamp 20080101172403 for 1953
+2026-03-23 10:30:50,135 [INFO] Fetching 1953 from https://web.archive.org/web/20080101172403/http://www.ufoinfo.com/humanoid/humanoid1953.shtml
+2026-03-23 10:30:50,962 [INFO] Saved raw HTML for 1953 (100567 bytes)
+2026-03-23 10:30:50,991 [INFO] Found 68 entry boundaries in page 1953
+2026-03-23 10:30:51,000 [INFO] Parsed 68 entries from page 1953
+2026-03-23 10:30:53,003 [INFO] 
+--- Processing page 18/73: humanoid1954 ---
+2026-03-23 10:30:53,004 [INFO] Using cached file for 1954
+2026-03-23 10:30:53,060 [INFO] Found 235 entry boundaries in page 1954
+2026-03-23 10:30:53,076 [INFO] Parsed 235 entries from page 1954
+2026-03-23 10:30:55,081 [INFO] 
+--- Processing page 19/73: humanoid1955 ---
+2026-03-23 10:30:56,274 [INFO] CDX found timestamp 20080101172408 for 1955
+2026-03-23 10:30:56,275 [INFO] Fetching 1955 from https://web.archive.org/web/20080101172408/http://www.ufoinfo.com/humanoid/humanoid1955.shtml
+2026-03-23 10:30:56,834 [INFO] Saved raw HTML for 1955 (96839 bytes)
+2026-03-23 10:30:56,859 [INFO] Found 90 entry boundaries in page 1955
+2026-03-23 10:30:56,867 [INFO] Parsed 90 entries from page 1955
+2026-03-23 10:30:58,872 [INFO] 
+--- Processing page 20/73: humanoid1956 ---
+2026-03-23 10:31:05,288 [INFO] CDX found timestamp 20080115043440 for 1956
+2026-03-23 10:31:05,289 [INFO] Fetching 1956 from https://web.archive.org/web/20080115043440/http://www.ufoinfo.com/humanoid/humanoid1956.shtml
+2026-03-23 10:31:06,224 [INFO] Saved raw HTML for 1956 (103203 bytes)
+2026-03-23 10:31:06,251 [INFO] Found 87 entry boundaries in page 1956
+2026-03-23 10:31:06,260 [INFO] Parsed 87 entries from page 1956
+2026-03-23 10:31:08,265 [INFO] 
+--- Processing page 21/73: humanoid1957 ---
+2026-03-23 10:31:51,099 [WARNING] CDX lookup failed for 1957 (20130101-20160101): HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=30)
+2026-03-23 10:31:55,157 [WARNING] No Wayback snapshot found for page: 1957
+2026-03-23 10:31:55,157 [INFO] 
+--- Processing page 22/73: humanoid1958 ---
+2026-03-23 10:32:19,937 [WARNING] No Wayback snapshot found for page: 1958
+2026-03-23 10:32:19,937 [INFO] 
+--- Processing page 23/73: humanoid1959 ---
+2026-03-23 10:32:20,345 [INFO] CDX found timestamp 20080114090157 for 1959
+2026-03-23 10:32:20,345 [INFO] Fetching 1959 from https://web.archive.org/web/20080114090157/http://www.ufoinfo.com/humanoid/humanoid1959.shtml
+2026-03-23 10:32:20,870 [INFO] Saved raw HTML for 1959 (63668 bytes)
+2026-03-23 10:32:20,894 [INFO] Found 59 entry boundaries in page 1959
+2026-03-23 10:32:20,901 [INFO] Parsed 59 entries from page 1959
+2026-03-23 10:32:22,902 [INFO] 
+--- Processing page 24/73: humanoid1960 ---
+2026-03-23 10:32:35,607 [WARNING] No Wayback snapshot found for page: 1960
+2026-03-23 10:32:35,608 [INFO] 
+--- Processing page 25/73: humanoid1961 ---
+2026-03-23 10:32:40,519 [WARNING] No Wayback snapshot found for page: 1961
+2026-03-23 10:32:40,519 [INFO] 
+--- Processing page 26/73: humanoid1962 ---
+2026-03-23 10:32:58,466 [WARNING] No Wayback snapshot found for page: 1962
+2026-03-23 10:32:58,466 [INFO] 
+--- Processing page 27/73: humanoid1963 ---
+2026-03-23 10:33:11,549 [WARNING] No Wayback snapshot found for page: 1963
+2026-03-23 10:33:11,549 [INFO] 
+--- Processing page 28/73: humanoid1964 ---
+2026-03-23 10:33:49,131 [WARNING] CDX lookup failed for 1964 (20130101-20160101): HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=30)
+2026-03-23 10:33:54,453 [WARNING] No Wayback snapshot found for page: 1964
+2026-03-23 10:33:54,453 [INFO] 
+--- Processing page 29/73: humanoid1965 ---
+2026-03-23 10:33:58,957 [INFO] CDX found timestamp 20080101172414 for 1965
+2026-03-23 10:33:58,959 [INFO] Fetching 1965 from https://web.archive.org/web/20080101172414/http://www.ufoinfo.com/humanoid/humanoid1965.shtml
+2026-03-23 10:34:00,753 [INFO] Saved raw HTML for 1965 (210435 bytes)
+2026-03-23 10:34:00,808 [INFO] Found 206 entry boundaries in page 1965
+2026-03-23 10:34:00,825 [INFO] Parsed 206 entries from page 1965
+2026-03-23 10:34:02,830 [INFO] 
+--- Processing page 30/73: humanoid1966 ---
+2026-03-23 10:34:06,638 [INFO] CDX found timestamp 20080101172419 for 1966
+2026-03-23 10:34:06,639 [INFO] Fetching 1966 from https://web.archive.org/web/20080101172419/http://www.ufoinfo.com/humanoid/humanoid1966.shtml
+2026-03-23 10:34:07,204 [INFO] Saved raw HTML for 1966 (139000 bytes)
+2026-03-23 10:34:07,235 [INFO] Found 153 entry boundaries in page 1966
+2026-03-23 10:34:07,247 [INFO] Parsed 153 entries from page 1966
+2026-03-23 10:34:09,253 [INFO] 
+--- Processing page 31/73: humanoid1967 ---
+2026-03-23 10:34:27,938 [INFO] CDX found timestamp 20080101172424 for 1967
+2026-03-23 10:34:27,938 [INFO] Fetching 1967 from https://web.archive.org/web/20080101172424/http://www.ufoinfo.com/humanoid/humanoid1967.shtml
+2026-03-23 10:34:29,713 [INFO] Saved raw HTML for 1967 (246454 bytes)
+2026-03-23 10:34:29,775 [INFO] Found 242 entry boundaries in page 1967
+2026-03-23 10:34:29,796 [INFO] Parsed 242 entries from page 1967
+2026-03-23 10:34:31,802 [INFO] 
+--- Processing page 32/73: humanoid1968 ---
+2026-03-23 10:34:35,209 [INFO] CDX found timestamp 20080217002403 for 1968
+2026-03-23 10:34:35,210 [INFO] Fetching 1968 from https://web.archive.org/web/20080217002403/http://www.ufoinfo.com/humanoid/humanoid1968.shtml
+2026-03-23 10:34:35,973 [INFO] Saved raw HTML for 1968 (342214 bytes)
+2026-03-23 10:34:36,062 [INFO] Found 280 entry boundaries in page 1968
+2026-03-23 10:34:36,091 [INFO] Parsed 280 entries from page 1968
+2026-03-23 10:34:38,096 [INFO] 
+--- Processing page 33/73: humanoid1969 ---
+2026-03-23 10:34:43,097 [INFO] CDX found timestamp 20080124182311 for 1969
+2026-03-23 10:34:43,097 [INFO] Fetching 1969 from https://web.archive.org/web/20080124182311/http://www.ufoinfo.com/humanoid/humanoid1969.shtml
+2026-03-23 10:34:43,773 [INFO] Saved raw HTML for 1969 (134242 bytes)
+2026-03-23 10:34:43,814 [INFO] Found 131 entry boundaries in page 1969
+2026-03-23 10:34:43,826 [INFO] Parsed 131 entries from page 1969
+2026-03-23 10:34:45,831 [INFO] 
+--- Processing page 34/73: humanoid1970 ---
+2026-03-23 10:34:46,982 [INFO] CDX found timestamp 20080101172429 for 1970
+2026-03-23 10:34:46,983 [INFO] Fetching 1970 from https://web.archive.org/web/20080101172429/http://www.ufoinfo.com/humanoid/humanoid1970.shtml
+2026-03-23 10:34:47,719 [INFO] Saved raw HTML for 1970 (112615 bytes)
+2026-03-23 10:34:47,752 [INFO] Found 104 entry boundaries in page 1970
+2026-03-23 10:34:47,762 [INFO] Parsed 104 entries from page 1970
+2026-03-23 10:34:49,767 [INFO] 
+--- Processing page 35/73: humanoid1971 ---
+2026-03-23 10:34:50,364 [INFO] CDX found timestamp 20080101172434 for 1971
+2026-03-23 10:34:50,367 [INFO] Fetching 1971 from https://web.archive.org/web/20080101172434/http://www.ufoinfo.com/humanoid/humanoid1971.shtml
+2026-03-23 10:34:50,952 [INFO] Saved raw HTML for 1971 (176149 bytes)
+2026-03-23 10:34:50,997 [INFO] Found 138 entry boundaries in page 1971
+2026-03-23 10:34:51,011 [INFO] Parsed 138 entries from page 1971
+2026-03-23 10:34:53,017 [INFO] 
+--- Processing page 36/73: humanoid1972 ---
+2026-03-23 10:34:55,484 [INFO] CDX found timestamp 20080113141802 for 1972
+2026-03-23 10:34:55,485 [INFO] Fetching 1972 from https://web.archive.org/web/20080113141802/http://www.ufoinfo.com/humanoid/humanoid1972.shtml
+2026-03-23 10:34:56,335 [INFO] Saved raw HTML for 1972 (159175 bytes)
+2026-03-23 10:34:56,378 [INFO] Found 145 entry boundaries in page 1972
+2026-03-23 10:34:56,392 [INFO] Parsed 145 entries from page 1972
+2026-03-23 10:34:58,398 [INFO] 
+--- Processing page 37/73: humanoid1973 ---
+2026-03-23 10:34:58,399 [INFO] Using cached file for 1973
+2026-03-23 10:34:58,464 [INFO] Found 247 entry boundaries in page 1973
+2026-03-23 10:34:58,486 [INFO] Parsed 247 entries from page 1973
+2026-03-23 10:35:00,491 [INFO] 
+--- Processing page 38/73: humanoid1974 ---
+2026-03-23 10:35:05,417 [INFO] CDX found timestamp 20080101172448 for 1974
+2026-03-23 10:35:05,418 [INFO] Fetching 1974 from https://web.archive.org/web/20080101172448/http://www.ufoinfo.com/humanoid/humanoid1974.shtml
+2026-03-23 10:35:06,880 [INFO] Saved raw HTML for 1974 (245729 bytes)
+2026-03-23 10:35:06,938 [INFO] Found 237 entry boundaries in page 1974
+2026-03-23 10:35:06,960 [INFO] Parsed 237 entries from page 1974
+2026-03-23 10:35:08,965 [INFO] 
+--- Processing page 39/73: humanoid1975 ---
+2026-03-23 10:35:09,819 [INFO] CDX found timestamp 20080101084314 for 1975
+2026-03-23 10:35:09,820 [INFO] Fetching 1975 from https://web.archive.org/web/20080101084314/http://www.ufoinfo.com/humanoid/humanoid1975.shtml
+2026-03-23 10:35:10,374 [INFO] Saved raw HTML for 1975 (269078 bytes)
+2026-03-23 10:35:10,458 [INFO] Found 252 entry boundaries in page 1975
+2026-03-23 10:35:10,481 [INFO] Parsed 251 entries from page 1975
+2026-03-23 10:35:12,487 [INFO] 
+--- Processing page 40/73: humanoid1976 ---
+2026-03-23 10:35:15,348 [INFO] CDX found timestamp 20080101172453 for 1976
+2026-03-23 10:35:15,349 [INFO] Fetching 1976 from https://web.archive.org/web/20080101172453/http://www.ufoinfo.com/humanoid/humanoid1976.shtml
+2026-03-23 10:35:16,217 [INFO] Saved raw HTML for 1976 (407267 bytes)
+2026-03-23 10:35:16,302 [INFO] Found 322 entry boundaries in page 1976
+2026-03-23 10:35:16,335 [INFO] Parsed 322 entries from page 1976
+2026-03-23 10:35:18,341 [INFO] 
+--- Processing page 41/73: humanoid1977 ---
+2026-03-23 10:35:19,853 [INFO] CDX found timestamp 20080124183201 for 1977
+2026-03-23 10:35:19,854 [INFO] Fetching 1977 from https://web.archive.org/web/20080124183201/http://www.ufoinfo.com/humanoid/humanoid1977.shtml
+2026-03-23 10:35:20,505 [INFO] Saved raw HTML for 1977 (248565 bytes)
+2026-03-23 10:35:20,566 [INFO] Found 233 entry boundaries in page 1977
+2026-03-23 10:35:20,587 [INFO] Parsed 233 entries from page 1977
+2026-03-23 10:35:22,593 [INFO] 
+--- Processing page 42/73: humanoid1978 ---
+2026-03-23 10:35:52,598 [WARNING] CDX lookup failed for 1978 (20080101-20130101): HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=30)
+2026-03-23 10:35:53,651 [INFO] CDX found timestamp 20060222215000 for 1978
+2026-03-23 10:35:53,651 [INFO] Fetching 1978 from https://web.archive.org/web/20060222215000/http://www.ufoinfo.com/humanoid/humanoid1978.shtml
+2026-03-23 10:35:54,401 [INFO] Saved raw HTML for 1978 (321782 bytes)
+2026-03-23 10:35:54,475 [INFO] Found 310 entry boundaries in page 1978
+2026-03-23 10:35:54,502 [INFO] Parsed 310 entries from page 1978
+2026-03-23 10:35:56,508 [INFO] 
+--- Processing page 43/73: humanoid1979 ---
+2026-03-23 10:35:59,585 [INFO] CDX found timestamp 20080117010332 for 1979
+2026-03-23 10:35:59,585 [INFO] Fetching 1979 from https://web.archive.org/web/20080117010332/http://www.ufoinfo.com/humanoid/humanoid1979.shtml
+2026-03-23 10:36:00,545 [INFO] Saved raw HTML for 1979 (188831 bytes)
+2026-03-23 10:36:00,594 [INFO] Found 195 entry boundaries in page 1979
+2026-03-23 10:36:00,610 [INFO] Parsed 195 entries from page 1979
+2026-03-23 10:36:02,615 [INFO] 
+--- Processing page 44/73: humanoid1980 ---
+2026-03-23 10:36:18,739 [INFO] CDX found timestamp 20080101172458 for 1980
+2026-03-23 10:36:18,740 [INFO] Fetching 1980 from https://web.archive.org/web/20080101172458/http://www.ufoinfo.com/humanoid/humanoid1980.shtml
+2026-03-23 10:36:19,401 [INFO] Saved raw HTML for 1980 (240919 bytes)
+2026-03-23 10:36:19,479 [INFO] Found 211 entry boundaries in page 1980
+2026-03-23 10:36:19,498 [INFO] Parsed 211 entries from page 1980
+2026-03-23 10:36:21,504 [INFO] 
+--- Processing page 45/73: humanoid1981 ---
+2026-03-23 10:36:33,482 [INFO] CDX found timestamp 20080101172503 for 1981
+2026-03-23 10:36:33,483 [INFO] Fetching 1981 from https://web.archive.org/web/20080101172503/http://www.ufoinfo.com/humanoid/humanoid1981.shtml
+2026-03-23 10:36:34,133 [INFO] Saved raw HTML for 1981 (136758 bytes)
+2026-03-23 10:36:34,161 [INFO] Found 126 entry boundaries in page 1981
+2026-03-23 10:36:34,172 [INFO] Parsed 126 entries from page 1981
+2026-03-23 10:36:36,177 [INFO] 
+--- Processing page 46/73: humanoid1982 ---
+2026-03-23 10:36:54,785 [INFO] CDX found timestamp 20080101172508 for 1982
+2026-03-23 10:36:54,785 [INFO] Fetching 1982 from https://web.archive.org/web/20080101172508/http://www.ufoinfo.com/humanoid/humanoid1982.shtml
+2026-03-23 10:36:55,230 [INFO] Saved raw HTML for 1982 (160422 bytes)
+2026-03-23 10:36:55,261 [INFO] Found 123 entry boundaries in page 1982
+2026-03-23 10:36:55,274 [INFO] Parsed 123 entries from page 1982
+2026-03-23 10:36:57,280 [INFO] 
+--- Processing page 47/73: humanoid1983 ---
+2026-03-23 10:37:24,582 [WARNING] No Wayback snapshot found for page: 1983
+2026-03-23 10:37:24,582 [INFO] 
+--- Processing page 48/73: humanoid1984 ---
+2026-03-23 10:37:31,782 [WARNING] No Wayback snapshot found for page: 1984
+2026-03-23 10:37:31,782 [INFO] 
+--- Processing page 49/73: humanoid1985 ---
+2026-03-23 10:37:42,189 [WARNING] No Wayback snapshot found for page: 1985
+2026-03-23 10:37:42,189 [INFO] 
+--- Processing page 50/73: humanoid1986 ---
+2026-03-23 10:37:46,798 [INFO] CDX found timestamp 20080101172513 for 1986
+2026-03-23 10:37:46,798 [INFO] Fetching 1986 from https://web.archive.org/web/20080101172513/http://www.ufoinfo.com/humanoid/humanoid1986.shtml
+2026-03-23 10:37:47,546 [INFO] Saved raw HTML for 1986 (94430 bytes)
+2026-03-23 10:37:47,578 [INFO] Found 95 entry boundaries in page 1986
+2026-03-23 10:37:47,586 [INFO] Parsed 95 entries from page 1986
+2026-03-23 10:37:49,591 [INFO] 
+--- Processing page 51/73: humanoid1987 ---
+2026-03-23 10:37:49,891 [INFO] CDX found timestamp 20080622111718 for 1987
+2026-03-23 10:37:49,891 [INFO] Fetching 1987 from https://web.archive.org/web/20080622111718/http://www.ufoinfo.com/humanoid/humanoid1987.shtml
+2026-03-23 10:37:50,422 [INFO] Saved raw HTML for 1987 (140843 bytes)
+2026-03-23 10:37:50,458 [INFO] Found 135 entry boundaries in page 1987
+2026-03-23 10:37:50,469 [INFO] Parsed 135 entries from page 1987
+2026-03-23 10:37:52,473 [INFO] 
+--- Processing page 52/73: humanoid1988 ---
+2026-03-23 10:37:52,614 [INFO] CDX found timestamp 20080101172518 for 1988
+2026-03-23 10:37:52,615 [INFO] Fetching 1988 from https://web.archive.org/web/20080101172518/http://www.ufoinfo.com/humanoid/humanoid1988.shtml
+2026-03-23 10:37:53,185 [INFO] Saved raw HTML for 1988 (139887 bytes)
+2026-03-23 10:37:53,221 [INFO] Found 143 entry boundaries in page 1988
+2026-03-23 10:37:53,233 [INFO] Parsed 143 entries from page 1988
+2026-03-23 10:37:55,235 [INFO] 
+--- Processing page 53/73: humanoid1989 ---
+2026-03-23 10:37:55,403 [INFO] CDX found timestamp 20080101172523 for 1989
+2026-03-23 10:37:55,403 [INFO] Fetching 1989 from https://web.archive.org/web/20080101172523/http://www.ufoinfo.com/humanoid/humanoid1989.shtml
+2026-03-23 10:37:55,905 [INFO] Saved raw HTML for 1989 (509924 bytes)
+2026-03-23 10:37:56,002 [INFO] Found 383 entry boundaries in page 1989
+2026-03-23 10:37:56,046 [INFO] Parsed 383 entries from page 1989
+2026-03-23 10:37:58,051 [INFO] 
+--- Processing page 54/73: humanoid1990 ---
+2026-03-23 10:37:59,292 [INFO] CDX found timestamp 20080112090605 for 1990
+2026-03-23 10:37:59,292 [INFO] Fetching 1990 from https://web.archive.org/web/20080112090605/http://www.ufoinfo.com/humanoid/humanoid1990.shtml
+2026-03-23 10:38:00,738 [INFO] Saved raw HTML for 1990 (679917 bytes)
+2026-03-23 10:38:00,857 [INFO] Found 424 entry boundaries in page 1990
+2026-03-23 10:38:00,915 [INFO] Parsed 424 entries from page 1990
+2026-03-23 10:38:02,920 [INFO] 
+--- Processing page 55/73: humanoid1991 ---
+2026-03-23 10:38:32,927 [WARNING] CDX lookup failed for 1991 (20080101-20130101): HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=30)
+2026-03-23 10:38:38,413 [INFO] CDX found timestamp 20070213065436 for 1991
+2026-03-23 10:38:38,414 [INFO] Fetching 1991 from https://web.archive.org/web/20070213065436/http://www.ufoinfo.com/humanoid/humanoid1991.shtml
+2026-03-23 10:38:39,276 [INFO] Saved raw HTML for 1991 (190396 bytes)
+2026-03-23 10:38:39,418 [INFO] Found 188 entry boundaries in page 1991
+2026-03-23 10:38:39,464 [INFO] Parsed 188 entries from page 1991
+2026-03-23 10:38:41,471 [INFO] 
+--- Processing page 56/73: humanoid1992 ---
+2026-03-23 10:38:57,253 [INFO] CDX found timestamp 20080101172534 for 1992
+2026-03-23 10:38:57,254 [INFO] Fetching 1992 from https://web.archive.org/web/20080101172534/http://www.ufoinfo.com/humanoid/humanoid1992.shtml
+2026-03-23 10:38:57,765 [INFO] Saved raw HTML for 1992 (183578 bytes)
+2026-03-23 10:38:57,812 [INFO] Found 182 entry boundaries in page 1992
+2026-03-23 10:38:57,828 [INFO] Parsed 182 entries from page 1992
+2026-03-23 10:38:59,833 [INFO] 
+--- Processing page 57/73: humanoid1993 ---
+2026-03-23 10:39:02,781 [INFO] CDX found timestamp 20080101172539 for 1993
+2026-03-23 10:39:02,781 [INFO] Fetching 1993 from https://web.archive.org/web/20080101172539/http://www.ufoinfo.com/humanoid/humanoid1993.shtml
+2026-03-23 10:39:03,206 [INFO] Saved raw HTML for 1993 (134089 bytes)
+2026-03-23 10:39:03,241 [INFO] Found 149 entry boundaries in page 1993
+2026-03-23 10:39:03,252 [INFO] Parsed 149 entries from page 1993
+2026-03-23 10:39:05,257 [INFO] 
+--- Processing page 58/73: humanoid1994 ---
+2026-03-23 10:39:20,191 [INFO] CDX found timestamp 20080401135618 for 1994
+2026-03-23 10:39:20,191 [INFO] Fetching 1994 from https://web.archive.org/web/20080401135618/http://www.ufoinfo.com/humanoid/humanoid1994.shtml
+2026-03-23 10:39:20,745 [INFO] Saved raw HTML for 1994 (137431 bytes)
+2026-03-23 10:39:20,783 [INFO] Found 147 entry boundaries in page 1994
+2026-03-23 10:39:20,794 [INFO] Parsed 147 entries from page 1994
+2026-03-23 10:39:22,795 [INFO] 
+--- Processing page 59/73: humanoid1995 ---
+2026-03-23 10:39:41,488 [INFO] CDX found timestamp 20080207004843 for 1995
+2026-03-23 10:39:41,489 [INFO] Fetching 1995 from https://web.archive.org/web/20080207004843/http://www.ufoinfo.com/humanoid/humanoid1995.shtml
+2026-03-23 10:39:41,923 [INFO] Saved raw HTML for 1995 (222957 bytes)
+2026-03-23 10:39:41,978 [INFO] Found 230 entry boundaries in page 1995
+2026-03-23 10:39:41,998 [INFO] Parsed 230 entries from page 1995
+2026-03-23 10:39:44,003 [INFO] 
+--- Processing page 60/73: humanoid1996 ---
+2026-03-23 10:40:06,064 [INFO] CDX found timestamp 20080411223827 for 1996
+2026-03-23 10:40:06,064 [INFO] Fetching 1996 from https://web.archive.org/web/20080411223827/http://www.ufoinfo.com/humanoid/humanoid1996.shtml
+2026-03-23 10:40:06,414 [INFO] Saved raw HTML for 1996 (275925 bytes)
+2026-03-23 10:40:06,502 [INFO] Found 269 entry boundaries in page 1996
+2026-03-23 10:40:06,526 [INFO] Parsed 269 entries from page 1996
+2026-03-23 10:40:08,529 [INFO] 
+--- Processing page 61/73: humanoid1997 ---
+2026-03-23 10:40:10,979 [INFO] CDX found timestamp 20080125221158 for 1997
+2026-03-23 10:40:10,979 [INFO] Fetching 1997 from https://web.archive.org/web/20080125221158/http://www.ufoinfo.com/humanoid/humanoid1997.shtml
+2026-03-23 10:40:11,413 [INFO] Saved raw HTML for 1997 (232193 bytes)
+2026-03-23 10:40:11,464 [INFO] Found 227 entry boundaries in page 1997
+2026-03-23 10:40:11,484 [INFO] Parsed 226 entries from page 1997
+2026-03-23 10:40:13,489 [INFO] 
+--- Processing page 62/73: humanoid1998 ---
+2026-03-23 10:40:30,842 [INFO] CDX found timestamp 20080103112237 for 1998
+2026-03-23 10:40:30,843 [INFO] Fetching 1998 from https://web.archive.org/web/20080103112237/http://www.ufoinfo.com/humanoid/humanoid1998.shtml
+2026-03-23 10:40:31,385 [INFO] Saved raw HTML for 1998 (235896 bytes)
+2026-03-23 10:40:31,435 [INFO] Found 186 entry boundaries in page 1998
+2026-03-23 10:40:31,455 [INFO] Parsed 186 entries from page 1998
+2026-03-23 10:40:33,456 [INFO] 
+--- Processing page 63/73: humanoid1999 ---
+2026-03-23 10:40:34,326 [INFO] CDX found timestamp 20080127140905 for 1999
+2026-03-23 10:40:34,326 [INFO] Fetching 1999 from https://web.archive.org/web/20080127140905/http://www.ufoinfo.com/humanoid/humanoid1999.shtml
+2026-03-23 10:40:35,068 [INFO] Saved raw HTML for 1999 (153875 bytes)
+2026-03-23 10:40:35,104 [INFO] Found 157 entry boundaries in page 1999
+2026-03-23 10:40:35,118 [INFO] Parsed 157 entries from page 1999
+2026-03-23 10:40:37,123 [INFO] 
+--- Processing page 64/73: humanoid2000 ---
+2026-03-23 10:40:37,499 [INFO] CDX found timestamp 20080101172544 for 2000
+2026-03-23 10:40:37,499 [INFO] Fetching 2000 from https://web.archive.org/web/20080101172544/http://www.ufoinfo.com/humanoid/humanoid2000.shtml
+2026-03-23 10:40:37,952 [INFO] Saved raw HTML for 2000 (195146 bytes)
+2026-03-23 10:40:38,008 [INFO] Found 191 entry boundaries in page 2000
+2026-03-23 10:40:38,024 [INFO] Parsed 191 entries from page 2000
+2026-03-23 10:40:40,029 [INFO] 
+--- Processing page 65/73: humanoid2001 ---
+2026-03-23 10:41:09,042 [INFO] CDX found timestamp 20080101172549 for 2001
+2026-03-23 10:41:09,043 [INFO] Fetching 2001 from https://web.archive.org/web/20080101172549/http://www.ufoinfo.com/humanoid/humanoid2001.shtml
+2026-03-23 10:41:09,915 [INFO] Saved raw HTML for 2001 (178518 bytes)
+2026-03-23 10:41:09,964 [INFO] Found 190 entry boundaries in page 2001
+2026-03-23 10:41:09,979 [INFO] Parsed 190 entries from page 2001
+2026-03-23 10:41:11,982 [INFO] 
+--- Processing page 66/73: humanoid2002 ---
+2026-03-23 10:41:19,484 [INFO] CDX found timestamp 20080115171031 for 2002
+2026-03-23 10:41:19,484 [INFO] Fetching 2002 from https://web.archive.org/web/20080115171031/http://www.ufoinfo.com/humanoid/humanoid2002.shtml
+2026-03-23 10:41:20,116 [INFO] Saved raw HTML for 2002 (107744 bytes)
+2026-03-23 10:41:20,146 [INFO] Found 111 entry boundaries in page 2002
+2026-03-23 10:41:20,155 [INFO] Parsed 110 entries from page 2002
+2026-03-23 10:41:22,161 [INFO] 
+--- Processing page 67/73: humanoid2003 ---
+2026-03-23 10:41:26,242 [INFO] CDX found timestamp 20080704144718 for 2003
+2026-03-23 10:41:26,242 [INFO] Fetching 2003 from https://web.archive.org/web/20080704144718/http://www.ufoinfo.com/humanoid/humanoid2003.shtml
+2026-03-23 10:41:28,622 [INFO] Saved raw HTML for 2003 (132479 bytes)
+2026-03-23 10:41:28,657 [INFO] Found 95 entry boundaries in page 2003
+2026-03-23 10:41:28,669 [INFO] Parsed 95 entries from page 2003
+2026-03-23 10:41:30,675 [INFO] 
+--- Processing page 68/73: humanoid2004 ---
+2026-03-23 10:41:34,025 [INFO] CDX found timestamp 20080101172554 for 2004
+2026-03-23 10:41:34,026 [INFO] Fetching 2004 from https://web.archive.org/web/20080101172554/http://www.ufoinfo.com/humanoid/humanoid2004.shtml
+2026-03-23 10:41:34,581 [INFO] Saved raw HTML for 2004 (211741 bytes)
+2026-03-23 10:41:34,647 [INFO] Found 151 entry boundaries in page 2004
+2026-03-23 10:41:34,665 [INFO] Parsed 151 entries from page 2004
+2026-03-23 10:41:36,670 [INFO] 
+--- Processing page 69/73: humanoid2005 ---
+2026-03-23 10:41:42,524 [INFO] CDX found timestamp 20080302000507 for 2005
+2026-03-23 10:41:42,524 [INFO] Fetching 2005 from https://web.archive.org/web/20080302000507/http://www.ufoinfo.com/humanoid/humanoid2005.shtml
+2026-03-23 10:41:43,075 [INFO] Saved raw HTML for 2005 (220512 bytes)
+2026-03-23 10:41:43,131 [INFO] Found 152 entry boundaries in page 2005
+2026-03-23 10:41:43,149 [INFO] Parsed 152 entries from page 2005
+2026-03-23 10:41:45,155 [INFO] 
+--- Processing page 70/73: humanoid2006 ---
+2026-03-23 10:41:46,414 [INFO] CDX found timestamp 20080105095235 for 2006
+2026-03-23 10:41:46,415 [INFO] Fetching 2006 from https://web.archive.org/web/20080105095235/http://www.ufoinfo.com/humanoid/humanoid2006.shtml
+2026-03-23 10:41:47,368 [INFO] Saved raw HTML for 2006 (146559 bytes)
+2026-03-23 10:41:47,408 [INFO] Found 101 entry boundaries in page 2006
+2026-03-23 10:41:47,420 [INFO] Parsed 101 entries from page 2006
+2026-03-23 10:41:49,425 [INFO] 
+--- Processing page 71/73: humanoid2007 ---
+2026-03-23 10:42:19,432 [WARNING] CDX lookup failed for 2007 (20080101-20130101): HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=30)
+2026-03-23 10:42:22,883 [INFO] CDX found timestamp 20070309161237 for 2007
+2026-03-23 10:42:22,883 [INFO] Fetching 2007 from https://web.archive.org/web/20070309161237/http://www.ufoinfo.com/humanoid/humanoid2007.shtml
+2026-03-23 10:42:23,501 [INFO] Saved raw HTML for 2007 (16936 bytes)
+2026-03-23 10:42:23,506 [INFO] Found 8 entry boundaries in page 2007
+2026-03-23 10:42:23,507 [INFO] Parsed 8 entries from page 2007
+2026-03-23 10:42:25,511 [INFO] 
+--- Processing page 72/73: humanoid2008 ---
+2026-03-23 10:42:28,215 [INFO] CDX found timestamp 20080211094658 for 2008
+2026-03-23 10:42:28,215 [INFO] Fetching 2008 from https://web.archive.org/web/20080211094658/http://www.ufoinfo.com/humanoid/humanoid2008.shtml
+2026-03-23 10:42:28,873 [INFO] Saved raw HTML for 2008 (25555 bytes)
+2026-03-23 10:42:28,878 [INFO] Found 11 entry boundaries in page 2008
+2026-03-23 10:42:28,880 [INFO] Parsed 11 entries from page 2008
+2026-03-23 10:42:30,880 [INFO] 
+--- Processing page 73/73: humanoid2009 ---
+2026-03-23 10:42:33,109 [INFO] CDX found timestamp 20090408090819 for 2009
+2026-03-23 10:42:33,109 [INFO] Fetching 2009 from https://web.archive.org/web/20090408090819/http://www.ufoinfo.com/humanoid/humanoid2009.shtml
+2026-03-23 10:42:33,656 [INFO] Saved raw HTML for 2009 (27803 bytes)
+2026-03-23 10:42:33,668 [INFO] Found 12 entry boundaries in page 2009
+2026-03-23 10:42:33,670 [INFO] Parsed 12 entries from page 2009
+2026-03-23 10:42:33,843 [INFO] 
+Saved 8666 entries to /Users/crashy/Development/ufolio/rosales/data/rosales_parsed.csv

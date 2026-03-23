@@ -1,0 +1,476 @@
+[
+  {
+    "category": "demographics",
+    "name": "female",
+    "value": "57",
+    "full_match": "57% were female"
+  },
+  {
+    "category": "demographics",
+    "name": "male",
+    "value": "43",
+    "full_match": "43% male"
+  },
+  {
+    "category": "demographics",
+    "name": "age_range",
+    "value": "56",
+    "full_match": "56%) were between the ages of 45-64"
+  },
+  {
+    "category": "demographics",
+    "name": "from_US",
+    "value": "64.1",
+    "full_match": "U.S (64.1%"
+  },
+  {
+    "category": "demographics",
+    "name": "from_Canada",
+    "value": "8.4",
+    "full_match": "Canada (8.4%"
+  },
+  {
+    "category": "demographics",
+    "name": "from_Australia",
+    "value": "8.3",
+    "full_match": "Australia (8.3%"
+  },
+  {
+    "category": "demographics",
+    "name": "from_UK",
+    "value": "7.2",
+    "full_match": "United Kingdom (7.2%"
+  },
+  {
+    "category": "experience",
+    "name": "telepathic_communication",
+    "value": "46",
+    "full_match": "46% have had more than 10 of these types of telepathic"
+  },
+  {
+    "category": "experience",
+    "name": "telepathic_communication",
+    "value": "34",
+    "full_match": "34% stated that the telepathic"
+  },
+  {
+    "category": "experience",
+    "name": "telepathic_communication",
+    "value": "78",
+    "full_match": "78% agreed that \u201csome type of telepathic"
+  },
+  {
+    "category": "experience",
+    "name": "telepathic_communication",
+    "value": "78",
+    "full_match": "78% of all CErs have received telepathic"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": null,
+    "full_match": "out of body"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": null,
+    "full_match": "Out of Body"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": null,
+    "full_match": "Out of Body"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": null,
+    "full_match": "Out of Body"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": "80",
+    "full_match": "80% of the subjects claimed to have had an OBE"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": "15",
+    "full_match": "15% of the general population have experienced either an OBE"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": "15",
+    "full_match": "15% or less reported that their CE, with or without an OBE"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": "71",
+    "full_match": "71% of N = 1103) versus a CE and no OBE"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": "70",
+    "full_match": "70% of N = 822). Consequently, the effect of an OBE"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": "9",
+    "full_match": "9% for the OBE"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": "80",
+    "full_match": "80%) reported to have had an OBE"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": "80",
+    "full_match": "80%, reported to have had an OBE"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": "80",
+    "full_match": "80% have had an OBE"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": null,
+    "full_match": "Out of Body"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": null,
+    "full_match": "Out-of-Body"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": null,
+    "full_match": "Out-of-Body"
+  },
+  {
+    "category": "experience",
+    "name": "OBE",
+    "value": null,
+    "full_match": "out-of-body"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "near death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "near-death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near-Death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "88",
+    "full_match": "88% of the responde"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "55",
+    "full_match": "55% of all responde"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "4",
+    "full_match": "4% of the responde"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "5",
+    "full_match": "5% of the responde"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near-Death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near Death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near Death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near Death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "37",
+    "full_match": "37% reported an NDE"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "78",
+    "full_match": "78% of responde"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "49",
+    "full_match": "49% of the responde"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "49",
+    "full_match": "49% of the responde"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "33",
+    "full_match": "33% of the 10-20 minute group), so \u201cspeeders\u201d tende"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "15",
+    "full_match": "15% or less reported that their CE, with or without an OBE or NDE"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "70",
+    "full_match": "70% of N = 505) versus a CE without a NDE"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "70",
+    "full_match": "70% of N = 822). Consequently, the effect of an OBE or NDE"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "9",
+    "full_match": "9% for the OBE and 7% for the NDE"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "78",
+    "full_match": "78% of these individuals believe that the changes they have unde"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "37",
+    "full_match": "37% have had a NDE"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "4",
+    "full_match": "4% of the subjects reported seeing an \u201cintelligently controlled craft that was not manmade\u201d and 62% stated that other witnesses also saw the perceived UAP craft. Fiftyseven percent of our Phase 2 resp"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": "68",
+    "full_match": "68% of the responde"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near Death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near-death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near Death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "near-death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near-Death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near-Death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near-Death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near-Death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near-Death"
+  },
+  {
+    "category": "experience",
+    "name": "NDE",
+    "value": null,
+    "full_match": "Near-Death"
+  },
+  {
+    "category": "experience",
+    "name": "positive_experience",
+    "value": "85",
+    "full_match": "85%, depending on the question asked) have had \u201cpositive"
+  },
+  {
+    "category": "experience",
+    "name": "positive_experience",
+    "value": "66",
+    "full_match": "66% viewed their CEs as Mainly Positive"
+  },
+  {
+    "category": "experience",
+    "name": "positive_experience",
+    "value": "51",
+    "full_match": "51%, Slightly Positive"
+  },
+  {
+    "category": "experience",
+    "name": "positive_experience",
+    "value": "71",
+    "full_match": "71% stated that their CEs were \u201chighly\u201d or \u201cslightly\u201d positive"
+  },
+  {
+    "category": "experience",
+    "name": "abduction",
+    "value": "30",
+    "full_match": "30% of his client\u2019s abduct"
+  },
+  {
+    "category": "experience",
+    "name": "abduction",
+    "value": "18",
+    "full_match": "18% of CErs viewed their abduct"
+  },
+  {
+    "category": "experience",
+    "name": "abduction",
+    "value": "8",
+    "full_match": "8% of the CEs. Also, for the abduct"
+  },
+  {
+    "category": "experience",
+    "name": "abduction",
+    "value": "66",
+    "full_match": "66% claimed that there was an abduct"
+  },
+  {
+    "category": "experience",
+    "name": "abduction",
+    "value": "8",
+    "full_match": "8% now stated that their last few contact experiences were an abduct"
+  },
+  {
+    "category": "experience",
+    "name": "abduction",
+    "value": "32",
+    "full_match": "32% who have had contact with NHI stated that they have had an \u201cabduct"
+  },
+  {
+    "category": "experience",
+    "name": "abduction",
+    "value": "35",
+    "full_match": "35% (N=172 of 489) of the abduct"
+  },
+  {
+    "category": "craft",
+    "name": "impossible_maneuvers",
+    "value": "52",
+    "full_match": "52%), made impossible maneuver"
+  },
+  {
+    "category": "craft",
+    "name": "impossible_maneuvers",
+    "value": "68",
+    "full_match": "68%); made impossible maneuver"
+  },
+  {
+    "category": "craft",
+    "name": "disappeared_quickly",
+    "value": "52",
+    "full_match": "52%), made impossible maneuvers (30-39%), and disappeared quickly"
+  },
+  {
+    "category": "craft_shape",
+    "name": "triangle",
+    "value": "28",
+    "full_match": "triangle (36%), oval (34%), cylindrical/cigar (28%)"
+  },
+  {
+    "category": "craft_shape",
+    "name": "oval",
+    "value": "28",
+    "full_match": "oval (34%), cylindrical/cigar (28%)"
+  },
+  {
+    "category": "craft_shape",
+    "name": "cylindrical",
+    "value": "28",
+    "full_match": "cylindrical/cigar (28%)"
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "total_published_cases": 14,
+  "gender_distribution": {
+    "male": 8,
+    "female": 6
+  },
+  "age_at_contact": {
+    "min": 22,
+    "max": 55,
+    "mean": 33.8,
+    "median": 34,
+    "values": [
+      22,
+      22,
+      24,
+      26,
+      28,
+      30,
+      33,
+      34,
+      34,
+      38,
+      38,
+      44,
+      45,
+      55
+    ]
+  },
+  "locations": {
+    "Massachusetts": 3,
+    "Northeast US (unspecified)": 4,
+    "New Hampshire": 1,
+    "Pennsylvania": 1,
+    "Southern US": 1,
+    "Bicoastal": 1,
+    "Not specified": 3
+  },
+  "occupations": [
+    "Technician at high-tech firm",
+    "Social worker",
+    "Actor, filmmaker, auto mechanic (works with father), piano player/songwriter, builder",
+    "Not specified; spiritual seeker",
+    "Housewife (self-described 'ordinary housewife')",
+    "Music student, nightclub receptionist",
+    "Psychotherapist; professional development consultant; designer/leader of nature adventures",
+    "Graduate student",
+    "Advertising business owner (self-administered)",
+    "Assistant to a CPA",
+    "Health care worker",
+    "Former hotel manager; recent acupuncture school graduate",
+    "Fine arts professor at small southern college; artist, writer, playwright, theatrical director",
+    "Highly successful businessman; homes on both coasts"
+  ],
+  "experience_category_counts": {
+    "Other": 36,
+    "Transport/craft encounter": 10,
+    "Medical/reproductive procedures": 10,
+    "Childhood onset": 9,
+    "Missing time": 5,
+    "Dual/hybrid identity": 5,
+    "Spiritual/transformative": 5,
+    "Telepathic communication": 4,
+    "Visions/dreams": 3,
+    "Physical evidence": 2
+  },
+  "year_contacted_mack": {
+    "range": "1991-1993",
+    "1991": 2,
+    "1992": 8,
+    "1993": 1,
+    "not_specified": 3
+  },
+  "childhood_onset": 6,
+  "notes": "All names are pseudonyms. Demographics extracted from published text."
+}

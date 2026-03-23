@@ -1,0 +1,20 @@
+# ── Copyrighted PDFs (books, papers) ──
+# These are downloaded from public sources but shouldn't be redistributed.
+# See README.md for source URLs to download them yourself.
+*.pdf
+
+# ── Extracted full book text ──
+mack/data/Mack_Abduction_text.txt
+mack/data/psychiatrist_paper_text.txt
+free/data/articles/*.txt
+
+# ── Intermediate cache ──
+rosales/data/raw/
+
+# ── Generated output (reproducible from scripts) ──
+nuforc/charts/
+
+# ── Python ──
+__pycache__/
+*.pyc
+.DS_Store
