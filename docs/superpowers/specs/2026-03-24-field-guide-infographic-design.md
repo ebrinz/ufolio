@@ -66,6 +66,53 @@ ufolio/
 3. Outputs compact JSON bundles to `site/data/`
 4. Keeps bundle sizes small — pre-aggregated, no raw records shipped to client
 
+#### Entity Classification Methodology
+
+The 32 entity types are classified from free-text descriptions using regex pattern matching — the same approach already proven in `entity_analysis.py`. Each type has a defined regex pattern (e.g., `\b(grey|gray)\s*(alien|being|entity)\b` for grey entities, `\b(nordic|blonde?|fair.?hair)\b` for nordics). The existing `entity_analysis.py` script already defines all 32 patterns and has been validated against the Rosales (8,666) and Magonia (923) corpora. The build script imports these patterns directly.
+
+The `entityByDecade` field in `rosales-timeline.json` uses these regex-classified entity species counts (Grey, Nordic, Reptilian, etc.), NOT the structured encounter type codes (A-H). The encounter type codes are in the separate `byDecade` field.
+
+#### Encounter Setting Classification
+
+Settings (bedroom, roadside, rural, urban, military, water, mountain) are classified from free-text descriptions using the same regex approach defined in `entity_analysis.py` (see the `settings` dictionary). Each setting has a keyword pattern matched against the `description` column of Rosales and Magonia, and the `comments` column of NUFORC.
+
+#### Geographic Data: No Geocoding Required
+
+**Rosales and Magonia do NOT have lat/lon coordinates.** All geographic map visualizations use NUFORC data only (which has latitude/longitude). Rosales and Magonia geographic breakdowns use the existing `country` column (Magonia) and text-parsed country/region from the `location` column (Rosales) for bar charts and country-level aggregations — not point maps.
+
+The `EncounterMap` component is scoped to NUFORC data. Rosales/Magonia geographic analysis uses `CountryBreakdown` bar charts instead.
+
+#### NUFORC Heatmap Downsampling
+
+The `nuforc-geo.json` file uses **0.25-degree hexbin aggregation** to reduce 65K+ raw points to ~2,000 hex cells with count values. This keeps the JSON under 200KB gzipped and renders smoothly on mobile Safari. The heatmap layer renders hex cells colored by density, not individual points.
+
+#### Cross-Dataset Psi Correlation
+
+Section 10's "disk-shaped craft 2.3x over-represented in psi reports" stat is computed by cross-tabulating NUFORC `shape` with the psi category flags from `high_strangeness_mining.py`. Added to `high-strangeness.json` as: `shapeCorrelations: { shape: string; category: string; ratio: number }[]`.
+
+#### Data Size Budget
+
+| Bundle | Target (gzipped) |
+|--------|-------------------|
+| `nuforc-geo.json` | < 200KB (hexbin aggregated) |
+| `entity-taxonomy.json` | < 50KB |
+| `nuforc-shapes.json` | < 20KB |
+| `rosales-timeline.json` | < 30KB |
+| `high-strangeness.json` | < 40KB |
+| `free-findings.json` | < 10KB |
+| `mack-cases.json` | < 15KB |
+| `convergence.json` | < 10KB |
+| `encounter-settings.json` | < 15KB |
+| **Total** | **< 400KB gzipped** |
+
+### Leaflet SSR Considerations
+
+All map components must use `'use client'` and be loaded via `next/dynamic({ ssr: false })` to prevent SSR build failures from Leaflet's `window` dependency. All local asset references (custom markers, icons) must use a `basePath`-aware helper:
+
+```ts
+const assetPath = (path: string) => `${process.env.NEXT_PUBLIC_BASE_PATH || ''}${path}`;
+```
+
 ### Responsive Strategy
 
 - **Mobile-first**: design for 375px, enhance upward
@@ -185,6 +232,8 @@ ufolio/
 - `Card` — Dark glass-morphism card with hover/tap state
 - `ExpandableCard` — Card with collapsible detail section (mobile-friendly)
 - `ProgressBar` — Scroll progress indicator (fixed top)
+- `SectionNav` — Sticky bottom bar (mobile) / sidebar dot nav (desktop) for jumping between 15 sections. Shows current section title. Collapse to hamburger when not in use.
+- `ScrollableChart` — Container for horizontal-scroll charts on mobile with fade-edge affordances, `-webkit-overflow-scrolling: touch`, and optional scroll snap
 - `SourceTag` — Inline citation badge ("NUFORC n=80,332" / "FREE Phase 2" / "Rosales Type G")
 
 ### Chart Components
@@ -336,18 +385,90 @@ ufolio/
 ## Deployment
 
 - `next.config.ts`: `output: 'export'`, `basePath: '/ufolio'`, `images: { unoptimized: true }`
-- GitHub Actions workflow: runs `build-site-data.py` → `next build` → deploys `out/` to `gh-pages` branch
 - Custom domain optional (can add later via CNAME)
+
+### GitHub Actions Workflow
+
+```yaml
+# .github/workflows/deploy.yml
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [master]
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pandas numpy scipy
+      - run: python scripts/build-site-data.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: cd site && npm ci && npm run build
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site/out
+```
 
 ## Source Attribution
 
 Every stat in the infographic includes a `SourceTag` component linking back to:
 - Dataset name and record count
-- For FREE data: specific article/chapter reference
+- For FREE data: specific article/chapter reference (e.g., "FREE Article: Hernandez/Klimo/Schild UFO Report, Phase 2")
 - For Rosales: type code and entry count
 - For NUFORC: field used and filter applied
 - For Mack: chapter and pseudonym
 - For Magonia: case ID range
+
+## Mobile-Specific Design Notes
+
+### Section Navigation
+`SectionNav` provides jump-to-section on all viewports. On mobile, it renders as a collapsible bottom bar showing current section title with a tap-to-expand chapter list. On desktop, it's a fixed dot-nav on the right edge.
+
+### Horizontal Scroll Charts
+Charts that are too wide for mobile (bar charts, timelines) render inside `ScrollableChart` containers with:
+- `overflow-x: auto` and `-webkit-overflow-scrolling: touch`
+- Fade gradients on left/right edges to signal scrollability
+- Optional `scroll-snap-type: x mandatory` for discrete stops
+
+### Heatmap Simplification
+Co-occurrence heatmaps (Section 11) on viewports < 768px render as a **ranked list of top 10 co-occurring pairs** instead of the full matrix. Each pair shows the two categories + count in a compact card format.
+
+### Touch Targets
+All interactive elements (cards, toggles, map controls, nav items) have minimum 44×44px touch targets per Apple HIG.
+
+## Phased Build Order
+
+### Phase 1: Foundation + NUFORC Sections (Sections 1-3)
+- Scaffold Next.js app, Tailwind dark theme, layout
+- Build reusable UI components (ScrollReveal, StatCounter, SectionHeader, Card, ProgressBar, SectionNav)
+- Build chart components (AnimatedBar, StackedBar)
+- `build-site-data.py` — NUFORC aggregations only (shapes, geo hexbins)
+- Sections 1 (opening), 2 (shapes), 3 (geography with Leaflet heatmap)
+- Deploy to GitHub Pages — first visible milestone
+
+### Phase 2: Rosales + Entity Taxonomy (Sections 4-7)
+- `build-site-data.py` — add Rosales aggregations, entity classification (regex), timeline
+- Build DonutChart, AnimatedLine, entity grid components
+- Sections 4 (encounters), 5 (census), 6 (shift timeline), 7 (human-passing)
+- This phase contains the heaviest data processing work
+
+### Phase 3: Cross-Dataset + Consciousness (Sections 8-12)
+- `build-site-data.py` — add encounter settings, high-strangeness, FREE findings, Mack cases, cross-dataset correlations
+- Build HeatmapGrid, remaining chart variants
+- Sections 8 (settings), 9 (body), 10 (mind), 11 (deep end), 12 (communication)
+
+### Phase 4: Convergence + Polish (Sections 13-15)
+- `build-site-data.py` — add convergence matrix
+- Sections 13 (convergence), 14 (field notes), 15 (sources)
+- Full responsive pass and mobile testing
+- Performance audit (bundle sizes, Lighthouse)
+- Final deploy
 
 ## Out of Scope
 
