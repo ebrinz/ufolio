@@ -37,8 +37,11 @@ export interface NuforcShapes {
   topShapes: ShapeData[];
   regionBreakdown: RegionBreakdown[];
   distributionCurve: { logCount: number; frequency: number }[];
+  shapesCumulative?: { shape: string; count: number; pct: number; cumulativePct: number }[];
+  pct80Threshold?: string;
   totalRecords: number;
   topThreePercent: number;
+  uniqueShapes?: number;
 }
 
 export interface HexCell {

@@ -50,9 +50,30 @@ top5_shapes = shape_counts.head(5).index.tolist()
 region_breakdown = []
 for rn in regions:
     rd = us[us["region"] == rn]
-    shapes = {shape: int((rd["shape"] == shape).sum()) for shape in top5_shapes}
-    region_breakdown.append({"region": rn, "shapes": shapes})
+    top5_in_region = {shape: int((rd["shape"] == shape).sum()) for shape in top5_shapes}
+    total_top5 = sum(top5_in_region.values())
+    if total_top5 > 0:
+        shapes_pct = {shape: round(count / total_top5 * 100, 1) for shape, count in top5_in_region.items()}
+    else:
+        shapes_pct = {shape: 0 for shape in top5_shapes}
+    region_breakdown.append({"region": rn, "shapes": shapes_pct})
 
+# Simple shape frequency histogram (plain language, no log/KDE)
+shape_bins = []
+for shape, count in shape_counts.items():
+    shape_bins.append({"shape": shape, "count": int(count), "pct": round(count / total_records * 100, 2)})
+# Also compute cumulative % for the "long tail" story
+sorted_shapes = sorted(shape_bins, key=lambda x: -x["count"])
+cumulative = 0
+for s in sorted_shapes:
+    cumulative += s["pct"]
+    s["cumulativePct"] = round(cumulative, 1)
+
+# Keep only top 20 for the chart + mark where 80% threshold falls
+top_shapes_cumulative = sorted_shapes[:20]
+pct_80_threshold = next((s["shape"] for s in sorted_shapes if s["cumulativePct"] >= 80), sorted_shapes[-1]["shape"])
+
+# Legacy distribution curve for KDE (kept for compatibility)
 log_counts = np.log10(shape_counts.values + 1)
 kde_x = np.linspace(log_counts.min(), log_counts.max(), 50)
 kde = stats.gaussian_kde(log_counts)
@@ -62,8 +83,11 @@ nuforc_shapes = {
     "topShapes": top_shapes,
     "regionBreakdown": region_breakdown,
     "distributionCurve": distribution_curve,
+    "shapesCumulative": top_shapes_cumulative,
+    "pct80Threshold": pct_80_threshold,
     "totalRecords": total_records,
     "topThreePercent": top_three_pct,
+    "uniqueShapes": int(shape_counts.nunique()) if hasattr(shape_counts, 'nunique') else len(shape_counts),
 }
 
 with open(os.path.join(DATA_OUT, "nuforc-shapes.json"), "w") as f:
