@@ -18,3 +18,8 @@ nuforc/charts/
 __pycache__/
 *.pyc
 .DS_Store
+
+# ── Next.js site ──
+site/node_modules/
+site/.next/
+site/out/
